@@ -85,6 +85,14 @@ const translations = {
     memberText: "عضو",
     discordServersCards: [
       {
+        image: "assets/img/servers/anubisgroup.png",
+        title: "@ Anubis Group #3k",
+        description: "نحن في Anubis Cyber Force، فريق عربي متخصص في الأمن السيبراني واختبارات الاختراق. نعتبر أنفسنا درعًا رقميًا لحماية الفضاء الإلكتروني لـ الوطن العربي ، حيث نعمل على تطوير مهاراتنا وتقديم أعلى مستويات الأمان الإلكتروني. هدفنا هو أن نرتقي بالعلم المصري ونضعه في مصاف الدول الرائدة في مجال الأمان السيبراني.",
+        members: "120",
+        inviteLink: "https://discord.gg/7r58fTtq7z",
+        roleMe: "Anubis Cyber Team"
+      },
+      {
         image: "assets/img/servers/royaltime.png",
         title: "GTA SA : Royal Time RolePlay",
         description: "خادم رويال تايم للحياه الواقعيه في MTA:SA",
@@ -237,6 +245,14 @@ const translations = {
     inviteText: "Join Server",
     memberText: "Members",
     discordServersCards: [
+      {
+        image: "assets/img/servers/anubisgroup.png",
+        title: "@ Anubis Group #3k",
+        description: "We are Anubis Cyber Force, an Arab team specialized in cybersecurity and penetration testing. We consider ourselves a digital shield protecting the cyberspace of the Arab world, continuously working to develop our skills and deliver the highest levels of cybersecurity. Our goal is to elevate Egyptian expertise and position it among the leading nations in the field of cybersecurity.",
+        members: "120",
+        inviteLink: "https://discord.gg/7r58fTtq7z",
+        roleMe: "Anubis Cyber Team"
+      },
       {
         image: "assets/img/servers/royaltime.png",
         title: "GTA SA : Royal Time RolePlay",
