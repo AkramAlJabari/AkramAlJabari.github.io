@@ -19,7 +19,7 @@ const translations = {
       },
       {
         title: "المشاريع المكتمله",
-        value: "5+"
+        value: "7+"
       },
       {
         title: "المشاهدات على يوتيوب",
@@ -27,7 +27,7 @@ const translations = {
       },
       {
         title: "المتابعين على كيك",
-        value: "90+"
+        value: "120+"
       }
     ],
     //Skills
@@ -180,7 +180,7 @@ const translations = {
       },
       {
         title: "Completed Projects",
-        value: "5+"
+        value: "7+"
       },
       {
         title: "YouTube Views",
@@ -188,7 +188,7 @@ const translations = {
       },
       {
         title: "Kick Followers",
-        value: "90+"
+        value: "120+"
       }
     ],
     //Skills
