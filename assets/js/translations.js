@@ -88,23 +88,15 @@ const translations = {
         image: "assets/img/servers/anubisgroup.png",
         title: "@ Anubis Group #3k",
         description: "نحن في Anubis Cyber Force، فريق عربي متخصص في الأمن السيبراني واختبارات الاختراق. نعتبر أنفسنا درعًا رقميًا لحماية الفضاء الإلكتروني لـ الوطن العربي ، حيث نعمل على تطوير مهاراتنا وتقديم أعلى مستويات الأمان الإلكتروني. هدفنا هو أن نرتقي بالعلم المصري ونضعه في مصاف الدول الرائدة في مجال الأمان السيبراني.",
-        members: "120",
+        members: "300",
         inviteLink: "https://discord.gg/7r58fTtq7z",
-        roleMe: "Anubis Cyber Team"
-      },
-      {
-        image: "assets/img/servers/royaltime.png",
-        title: "GTA SA : Royal Time RolePlay",
-        description: "خادم رويال تايم للحياه الواقعيه في MTA:SA",
-        members: "1.5K",
-        inviteLink: "https://discord.gg/vw8RuzsvEt",
-        roleMe: "مبرمج & مشرف_إداري"
+        roleMe: "فريق أنوبيس السيبراني"
       },
       {
         image: "assets/img/servers/virusaljabari.png",
         title: "Virus AlJabari",
         description: "مجتمع ديسكورد الخاص بمتابعيني",
-        members: "20",
+        members: "50",
         inviteLink: "https://discord.gg/uvkq5dTqeY",
         roleMe: "المالك"
       },
@@ -120,7 +112,7 @@ const translations = {
         image: "assets/img/servers/ykwn.png",
         title: "يخوان",
         description: "مجتمع لجروب \"يخوان\" على الفيسبوك يتخصص في الألعاب والبطولات والفعاليات",
-        members: "1.5K",
+        members: "2K",
         inviteLink: "https://discord.gg/th5AzgMkQg",
         roleMe: "مؤسس & مدير"
       },
@@ -147,14 +139,6 @@ const translations = {
         members: "600",
         inviteLink: "https://discord.gg/TMAVqSxK4C",
         roleMe: "مبرمج مواقع"
-      },
-      {
-        image: "assets/img/servers/turbonest.jpg",
-        title: "TurboNest Hosting",
-        description: "استضافه خوادم",
-        members: "200",
-        inviteLink: "https://discord.gg/MG4SGeUQ6N",
-        roleMe: "المدير المالي للمشروع"
       }
     ],
     //Footer
@@ -249,23 +233,15 @@ const translations = {
         image: "assets/img/servers/anubisgroup.png",
         title: "@ Anubis Group #3k",
         description: "We are Anubis Cyber Force, an Arab team specialized in cybersecurity and penetration testing. We consider ourselves a digital shield protecting the cyberspace of the Arab world, continuously working to develop our skills and deliver the highest levels of cybersecurity. Our goal is to elevate Egyptian expertise and position it among the leading nations in the field of cybersecurity.",
-        members: "120",
+        members: "300",
         inviteLink: "https://discord.gg/7r58fTtq7z",
         roleMe: "Anubis Cyber Team"
-      },
-      {
-        image: "assets/img/servers/royaltime.png",
-        title: "GTA SA : Royal Time RolePlay",
-        description: "RoyalTime server for roleplay MTA:SA",
-        members: "1.5K",
-        inviteLink: "https://discord.gg/vw8RuzsvEt",
-        roleMe: "Developer & Curator_Administration"
       },
       {
         image: "assets/img/servers/virusaljabari.png",
         title: "Virus AlJabari",
         description: "My follower's discord community",
-        members: "20",
+        members: "50",
         inviteLink: "https://discord.gg/uvkq5dTqeY",
         roleMe: "Owner"
       },
@@ -279,9 +255,9 @@ const translations = {
       },
       {
         image: "assets/img/servers/ykwn.png",
-        title: "يخوان",
+        title: "Yakhwan",
         description: "A community for the \"Yakhwan\" Facebook group specializing in games, tournaments, and events",
-        members: "1.5K",
+        members: "2K",
         inviteLink: "https://discord.gg/th5AzgMkQg",
         roleMe: "Founder & Manager"
       },
@@ -308,14 +284,6 @@ const translations = {
         members: "600",
         inviteLink: "https://discord.gg/TMAVqSxK4C",
         roleMe: "Webs Developer"
-      },
-      {
-        image: "assets/img/servers/turbonest.jpg",
-        title: "TurboNest Hosting",
-        description: "Hosting servers",
-        members: "200",
-        inviteLink: "https://discord.gg/MG4SGeUQ6N",
-        roleMe: "Project CFO"
       }
     ],
     //Footer
