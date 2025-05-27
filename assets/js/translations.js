@@ -255,7 +255,7 @@ const translations = {
       },
       {
         image: "assets/img/servers/ykwn.png",
-        title: "Yakhwan",
+        title: "يخوان",
         description: "A community for the \"Yakhwan\" Facebook group specializing in games, tournaments, and events",
         members: "2K",
         inviteLink: "https://discord.gg/th5AzgMkQg",
