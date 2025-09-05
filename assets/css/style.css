@@ -29,7 +29,6 @@ body {
   padding: 0 20px;
 }
 
-/* القائمة العلوية */
 .navbar {
   background: var(--gradient);
   padding: 1rem 0;
@@ -42,9 +41,9 @@ body {
 
 .navbar .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  gap: 5px;
+  gap: 50px;
 }
 
 .logo {
@@ -64,11 +63,12 @@ body {
   color: var(--white);
   text-decoration: none;
   padding: 0.5rem 1rem;
+  display: inline-block;
   border-radius: 20px;
   transition: all 0.3s ease;
 }
 
-.nav-links li a:hover {
+.nav-links a:hover {
   background: rgba(255, 255, 255, 0.2);
   transform: translateY(-2px);
 }
@@ -89,12 +89,6 @@ body {
   border-radius: 2px;
 }
 
-[dir="ltr"] .nav-links a.active::after {
-  left: auto;
-  right: 0;
-}
-
-/* القسم الرئيسي */
 .hero {
   height: 100vh;
   display: flex;
@@ -158,7 +152,6 @@ body {
   transform: translateY(-3px);
 }
 
-/* الأقسام العامة */
 section {
   padding: 5rem 0;
   position: relative;
@@ -182,7 +175,6 @@ section h2::after {
   border-radius: 3px;
 }
 
-/* قسم عني */
 .about-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -202,7 +194,7 @@ section h2::after {
   background: var(--white);
   border-radius: 15px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  transition: all 0.3s ease;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -210,9 +202,9 @@ section h2::after {
 
 .stat:hover {
   transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
-/* قسم المهارات */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -244,7 +236,6 @@ section h2::after {
   margin-bottom: 1rem;
 }
 
-/* قسم المشاريع */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -303,7 +294,7 @@ section h2::after {
 }
 
 .project-link:hover {
-  transform: translateY(-2px);
+  transform: translateY(-3px);
   box-shadow: 0 4px 15px rgba(66, 153, 225, 0.3);
 }
 
@@ -316,7 +307,6 @@ section h2::after {
   box-shadow: 0 4px 15px rgba(83, 83, 83, 0.3);
 }
 
-/* قسم خوادم ديسكورد */
 .discord-servers {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -407,7 +397,6 @@ footer {
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* التجاوب مع الشاشات الصغيرة */
 @media (max-width: 800px) {
   .hideMobile {
     display: none;
@@ -426,34 +415,6 @@ footer {
   }
 }
 
-.lang-toggle {
-  background: none;
-  border: 2px solid var(--accent-color);
-  color: var(--accent-color);
-  padding: 8px 16px;
-  border-radius: 20px;
-  cursor: pointer;
-  font-family: 'Cairo', sans-serif;
-  transition: all 0.3s ease;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.lang-toggle:hover {
-  background: var(--accent-color);
-  color: white;
-}
-
-.lang-toggle i {
-  font-size: 1.1rem;
-}
-
-[dir="ltr"] {
-  text-align: left;
-}
-
-/* نافذة عرض الصورة */
 .image-modal {
   display: none;
   position: fixed;
@@ -497,7 +458,6 @@ footer {
   color: red;
 }
 
-/* تعديل مؤشر الصور في البطاقات */
 .project-card img,
 .discord-server-card img {
   cursor: pointer;

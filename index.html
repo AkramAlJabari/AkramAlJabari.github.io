@@ -4,118 +4,65 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <title></title>
     <link rel="icon" type="image/png" href="assets/img/akram.png">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/main.js"></script>
   </head>
 
   <body>
-    <!-- القائمة العلوية -->
+    <div class="image-modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <img src="" alt="Modal Image">
+      </div>
+    </div>
     <nav class="navbar">
       <div class="container">
-        <div class="logo" data-tr="name"></div>
-        <ul class="nav-links hideMobile">
-          <li><a href="#home" data-tr="home"></a></li>
-          <li><a href="#about" data-tr="about"></a></li>
-          <li><a href="#skills" data-tr="skills"></a></li>
-          <li><a href="#projects" data-tr="projects"></a></li>
-          <li><a href="#discord" data-tr="discord"></a></li>
-        </ul>
-        <ul class="nav-links">
-          <li><button id="langToggle" class="lang-toggle"><i class="fas fa-globe"></i></button></li>
-        </ul>
+        <div class="logo"></div>
+        <ul class="nav-links hideMobile"></ul>
       </div>
     </nav>
-
-    <!-- القسم الرئيسي -->
     <section id="home" class="hero">
       <div class="container">
         <h1></h1>
         <p></p>
-        <div class="social-links">
-          <a target="_blank" href="https://www.linkedin.com/in/akram-aljabari" class="social-link"><i
-              class="fab fa-linkedin"></i></a>
-          <a target="_blank" href="http://paypal.me/AkramAljabari" class="social-link"><i class="fab fa-paypal"></i></a>
-          <a target="_blank" href="https://github.com/AkramAlJabari" class="social-link"><i
-              class="fab fa-github"></i></a>
-          <a target="_blank" href="https://web.facebook.com/Akram.M.AlJabari" class="social-link"><i
-              class="fab fa-facebook"></i></a>
-          <a target="_blank" href="https://www.instagram.com/vm._.j" class="social-link"><i
-              class="fab fa-instagram"></i></a>
-          <a target="_blank" href="https://x.com/virus_m_j" class="social-link"><svg
-              style="width: 22px;height: 22px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-              fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
-              <path
-                d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
-            </svg></a>
-          <a target="_blank" href="https://kick.com/virusaljabari" class="social-link"><svg style="width: 21px;"
-              viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"
-              stroke-linejoin="round" stroke-miterlimit="2">
-              <path
-                d="M37 .036h164.448v113.621h54.71v-56.82h54.731V.036h164.448v170.777h-54.73v56.82h-54.711v56.8h54.71v56.82h54.73V512.03H310.89v-56.82h-54.73v-56.8h-54.711v113.62H37V.036z"
-                fill="#fff" />
-            </svg></a>
-          <a target="_blank" href="https://www.youtube.com/@virusaljabari" class="social-link"><i
-              class="fab fa-youtube"></i></a>
-          <a target="_blank" href="https://discord.com/users/608224231322419202" class="social-link"><i
-              class="fab fa-discord"></i></a>
-          <a target="_blank" href="https://www.tiktok.com/@virusaljabari" class="social-link"><i
-              class="fab fa-tiktok"></i></a>
-          <a target="_blank" href="mailto:akramm3810@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
-        </div>
+        <div class="social-links"></div>
       </div>
     </section>
-
-    <!-- قسم عني -->
     <section id="about" class="about">
       <div class="container">
         <h2></h2>
         <div class="about-content">
-          <div class="about-text">
-            <p>
-            <p>
-          </div>
+          <p class="about-text"></p>
           <div class="about-stats"></div>
         </div>
       </div>
     </section>
-
-    <!-- قسم المهارات -->
     <section id="skills" class="skills">
       <div class="container">
         <h2></h2>
         <div class="skills-grid"></div>
       </div>
     </section>
-
-    <!-- قسم المشاريع -->
     <section id="projects" class="projects">
       <div class="container">
         <h2></h2>
         <div class="projects-grid"></div>
       </div>
     </section>
-
-    <!-- قسم خوادم ديسكورد -->
     <section id="discord" class="discord">
       <div class="container">
         <h2></h2>
         <div class="discord-servers"></div>
       </div>
     </section>
-
     <footer>
-      <div class="container">
-        <p></p>
-      </div>
+      <div class="container"></div>
     </footer>
-
-    <script src="assets/js/translations.js"></script>
-    <script src="assets/js/main.js"></script>
   </body>
 
 </html>
