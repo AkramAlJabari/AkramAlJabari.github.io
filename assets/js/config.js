@@ -99,6 +99,12 @@ let config = {
   projectFixText: `قريبًا ...`,
   projectsCards: [
     {
+      image: `assets/img/projects/3d_mys.png`,
+      title: `3D MESTERY`,
+      description: `متجر ويب لبيع وإدارة بوتات الديسكورد المميزه ، ويمكن التحكم في البوتات من خلال لوحة تحكم (داشبورد) في نفس الموقع بشكل احترافي وبسيط`,
+      link: `https://3d-mestery.store/`
+    },
+    {
       image: `assets/img/projects/adirwebsite.png`,
       title: `موقع أدير`,
       description: `موقع أدير لإدارة متجرك بشكل كامل (مخزون ، منتجات ، عملائك ، موظفينك ، وأيضا كاشير يعمل على الهواتف) والمزيد من المميزات`,
