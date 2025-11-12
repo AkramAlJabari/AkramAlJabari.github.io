@@ -73,7 +73,7 @@ let config = {
     },
     {
       title: `المتابعين على كيك`,
-      value: `200+`
+      value: `400+`
     }
   ],
   //Skills
