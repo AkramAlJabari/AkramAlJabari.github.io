@@ -15,10 +15,10 @@ let config = {
       icon: `fab fa-linkedin`,
       link: `https://www.linkedin.com/in/akram-aljabari`
     },
-    {
-      icon: `fab fa-paypal`,
-      link: `http://paypal.me/AkramAljabari`
-    },
+    // {
+    //   icon: `fab fa-paypal`,
+    //   link: `http://paypal.me/AkramAljabari`
+    // },
     {
       icon: `fab fa-github`,
       link: `https://github.com/AkramAlJabari`
