@@ -142,6 +142,22 @@ let config = {
       roleMe: `المالك`
     },
     {
+      image: `assets/img/servers/deqqah.png`,
+      title: `Deqqah  Graphics`,
+      description: `مــتـــجر دقــة جرافــيــك ، يتوفر جميع خدمات تصميم الجرافيك والتحريك وبكجات الستريم ، الخ ...`,
+      members: `3.5K`,
+      inviteLink: `https://discord.gg/rG2wcSEh2W`,
+      roleMe: `مسؤول برمجة البوتات`
+    },
+    {
+      image: `https://static.vecteezy.com/system/resources/thumbnails/004/141/669/small/no-photo-or-blank-image-icon-loading-images-or-missing-image-mark-image-not-available-or-image-coming-soon-sign-simple-nature-silhouette-in-frame-isolated-illustration-vector.jpg`,
+      title: `Unity RP`,
+      description: `سيرفر فايف ام حياه واقعيه بنظام CFW`,
+      members: `50`,
+      inviteLink: `https://discord.gg/b5UrBEEyMr`,
+      roleMe: `مسؤول الديسكورد`
+    },
+    {
       image: `assets/img/servers/3d_mys.png`,
       title: `3D MESTERY`,
       description: `خادم ديسكورد لبيع وشراء مابات وسكنات وسكربتات  لعبة MTA وبوتات الديسكورد`,
